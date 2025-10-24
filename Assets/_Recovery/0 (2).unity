@@ -464,6 +464,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 48d30e63223ce5b02801799833847a6b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1615157977}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 48d30e63223ce5b02801799833847a6b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1615157978}
   m_SourcePrefab: {fileID: 100100000, guid: 48d30e63223ce5b02801799833847a6b, type: 3}
 --- !u!1 &832575517
 GameObject:
@@ -682,6 +685,21 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &1615157978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1615157974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50f89f787f47103c696466d668b5c460, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FollowMouse
+  target: {fileID: 0}
+  rotationSpeed: 10
+  verticalTiltFactor: 0.2
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

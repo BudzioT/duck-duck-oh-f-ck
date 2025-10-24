@@ -206,13 +206,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalRotation: {x: -0, y: 0.9396927, z: -0.3420201, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 40, y: 180, z: 0}
 --- !u!114 &330585547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -269,9 +269,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60b6206e3ecd281c0a5f3f06ef70a809, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FollowCamera
-  objToFollow: {fileID: 1615157976}
-  objOffset: {x: 0, y: 1.5, z: 3}
-  speed: 5
+  objToFollow: {fileID: 1615157974}
+  objOffset: {x: 0, y: 2.5, z: 1.5}
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -461,9 +460,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 48d30e63223ce5b02801799833847a6b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1615157975}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 48d30e63223ce5b02801799833847a6b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1615157977}
   m_SourcePrefab: {fileID: 100100000, guid: 48d30e63223ce5b02801799833847a6b, type: 3}
 --- !u!1 &832575517
 GameObject:
@@ -643,45 +639,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be1e529a8e9572bed8868b7b2b904b12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Movement
-  speed: 0
-  maxSpeed: 2
-  accelerate: 0.7
-  decelerate: 6
---- !u!4 &1615157976 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 48d30e63223ce5b02801799833847a6b, type: 3}
-  m_PrefabInstance: {fileID: 546311872}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1615157977
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1615157974}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.PlayerInput
-  m_Actions: {fileID: -944628639613478452, guid: 9b0d4f8ed1be996258060bfbf4e370b6, type: 3}
-  m_NotificationBehavior: 0
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents: []
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: Player
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
+  speed: 5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
