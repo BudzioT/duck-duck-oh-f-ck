@@ -10,9 +10,6 @@ public class ItemHolder : MonoBehaviour
     [SerializeField] private float pickUpRange = 2.0f;
     [SerializeField] private LayerMask itemLayer = -1; // -1 means "Everything" by default
     
-    [Header("Input")]
-    [SerializeField] private KeyCode actionKey = KeyCode.Mouse0;
-    
     [Header("Physics Settings")]
     [SerializeField] private float holdStrength = 50f;
     [SerializeField] private float holdDamp = 5f;

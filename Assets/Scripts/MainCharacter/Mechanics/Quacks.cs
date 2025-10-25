@@ -11,7 +11,6 @@ public class Quacks : MonoBehaviour
     public bool quacking = false;
     private bool canQuack = true;
     
-    // Update is called once per frame
     void Update()
     {
         if (Keyboard.current.qKey.wasPressedThisFrame)
@@ -21,23 +20,23 @@ public class Quacks : MonoBehaviour
                 quackSource.Play();
                 
                 quacking = true;
-                StartCoroutine("EndQuacking");
+                StartCoroutine(nameof(EndQuacking));
                 
                 canQuack = false;
-                StartCoroutine("QuackCooldown");
+                StartCoroutine(nameof(QuackCooldown));
             }
         }
+    }
 
-        IEnumerator QuackCooldown()
-        {
-            yield return new WaitForSeconds(1.5f);
-            canQuack = true;
-        }
+    IEnumerator QuackCooldown()
+    {
+        yield return new WaitForSeconds(1.5f);
+        canQuack = true;
+    }
 
-        IEnumerator EndQuacking()
-        {
-            yield return new WaitForSeconds(0.2f);
-            quacking = false;
-        }
+    IEnumerator EndQuacking()
+    {
+        yield return new WaitForSeconds(0.2f);
+        quacking = false;
     }
 }
