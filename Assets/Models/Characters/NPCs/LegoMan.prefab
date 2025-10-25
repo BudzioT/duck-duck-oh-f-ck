@@ -5897,7 +5897,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3123745134887224158}
+<<<<<<< HEAD
+=======
   - component: {fileID: 6407765908600112100}
+>>>>>>> 9e79dde14657356c472ffc069c484ceeda85df18
   m_Layer: 0
   m_Name: LegoMan
   m_TagString: Untagged
@@ -6053,6 +6056,8 @@ Transform:
   - {fileID: 6239403140707744068}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+=======
 --- !u!111 &6407765908600112100
 Animation:
   m_ObjectHideFlags: 0
@@ -6072,6 +6077,7 @@ Animation:
   m_AnimatePhysics: 1
   m_UpdateMode: 0
   m_CullingType: 0
+>>>>>>> 9e79dde14657356c472ffc069c484ceeda85df18
 --- !u!1 &2431828919250493827
 GameObject:
   m_ObjectHideFlags: 0
