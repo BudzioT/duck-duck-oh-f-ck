@@ -17,12 +17,15 @@ public class Movement : MonoBehaviour
     private Camera mainCamera;
     private bool isGrounded;
     private Vector3 moveDirection;
+
+    private Animator animator;
     
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         mainCamera = Camera.main;
-        
+        animator = GetComponent<Animator>();
+
         // Lock cursor for better gameplay experience (optional)
         // Cursor.lockState = CursorLockMode.Locked;
     }
@@ -48,6 +51,14 @@ public class Movement : MonoBehaviour
         
         // Calculate desired move direction
         moveDirection = (forward * vertical + right * horizontal).normalized;
+        if (moveDirection != Vector3.zero)
+        {
+           animator.SetBool("isRunning", true);
+        }
+        else
+        {
+            animator.SetBool("isRunning", false);
+        }
         
         // Rotate character towards movement direction
         if (moveDirection.magnitude >= 0.1f)
@@ -62,6 +73,11 @@ public class Movement : MonoBehaviour
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             rb.velocity = new Vector3(rb.velocity.x, jumpForce, rb.velocity.z);
+        }
+
+        if (!isGrounded)
+        {
+            animator.SetBool("isRunning", true);
         }
     }
     
