@@ -698,10 +698,6 @@ PrefabInstance:
     - {fileID: 3313615437966699196, guid: e7577284eeff3b069bd2c2499f1ab7d4, type: 3}
     - {fileID: 6001231905550409611, guid: e7577284eeff3b069bd2c2499f1ab7d4, type: 3}
     m_AddedGameObjects: []
-<<<<<<< HEAD
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e7577284eeff3b069bd2c2499f1ab7d4, type: 3}
-=======
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e7577284eeff3b069bd2c2499f1ab7d4, type: 3}
       insertIndex: -1
@@ -731,4 +727,3 @@ Animation:
   m_AnimatePhysics: 1
   m_UpdateMode: 0
   m_CullingType: 0
->>>>>>> 9e79dde14657356c472ffc069c484ceeda85df18
