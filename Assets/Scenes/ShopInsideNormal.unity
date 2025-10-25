@@ -119,8 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
-<<<<<<< HEAD
-=======
 --- !u!1 &57924418
 GameObject:
   m_ObjectHideFlags: 0
@@ -592,7 +590,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -3910990755373119420, guid: 276dd9cf8d1a45741bc82c0a2970db78, type: 3}
   m_PrefabInstance: {fileID: 238316056}
   m_PrefabAsset: {fileID: 0}
->>>>>>> 9e79dde14657356c472ffc069c484ceeda85df18
 --- !u!1 &524991465
 GameObject:
   m_ObjectHideFlags: 0
@@ -604,10 +601,7 @@ GameObject:
   - component: {fileID: 524991468}
   - component: {fileID: 524991467}
   - component: {fileID: 524991466}
-<<<<<<< HEAD
-=======
   - component: {fileID: 524991469}
->>>>>>> 9e79dde14657356c472ffc069c484ceeda85df18
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -682,10 +676,6 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 524991465}
   serializedVersion: 2
-<<<<<<< HEAD
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
-=======
   m_LocalRotation: {x: 0, y: 0.9848078, z: 0.17364825, w: 0}
   m_LocalPosition: {x: 0, y: 0.37, z: 3.49}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -1132,7 +1122,6 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
->>>>>>> 9e79dde14657356c472ffc069c484ceeda85df18
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1148,10 +1137,7 @@ GameObject:
   m_Component:
   - component: {fileID: 986075941}
   - component: {fileID: 986075940}
-<<<<<<< HEAD
-=======
   - component: {fileID: 986075942}
->>>>>>> 9e79dde14657356c472ffc069c484ceeda85df18
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -1233,18 +1219,12 @@ Transform:
   m_GameObject: {fileID: 986075939}
   serializedVersion: 2
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-<<<<<<< HEAD
-  m_LocalPosition: {x: 0, y: 3, z: 0}
-=======
   m_LocalPosition: {x: -0.89, y: 3.73, z: -0.08}
->>>>>>> 9e79dde14657356c472ffc069c484ceeda85df18
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
-<<<<<<< HEAD
-=======
 --- !u!114 &986075942
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2199,16 +2179,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2147137612}
   m_Mesh: {fileID: 8947411862652206223, guid: 276dd9cf8d1a45741bc82c0a2970db78, type: 3}
->>>>>>> 9e79dde14657356c472ffc069c484ceeda85df18
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 524991468}
   - {fileID: 986075941}
-<<<<<<< HEAD
-=======
   - {fileID: 756920867}
   - {fileID: 238316056}
   - {fileID: 1031494284}
->>>>>>> 9e79dde14657356c472ffc069c484ceeda85df18

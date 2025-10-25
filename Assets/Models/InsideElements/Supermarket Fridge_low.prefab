@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 6418280416869231774}
   - component: {fileID: 7642068300833350023}
   - component: {fileID: 2281188733849404582}
-  - component: {fileID: 7859630577064580115}
   m_Layer: 0
   m_Name: Supermarket Fridge_low
   m_TagString: Untagged
@@ -27,13 +26,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5658497161672739294}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.99999684, z: 0, w: 0.002522115}
+  m_LocalRotation: {x: 0, y: 0.9999969, z: -0, w: 0.00252251}
   m_LocalPosition: {x: 6.653, y: 1.6459773, z: 0.53}
-  m_LocalScale: {x: 0.03, y: 0.02, z: 0.03}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 179.711, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7642068300833350023
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -91,24 +90,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7859630577064580115
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5658497161672739294}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 65.00001, y: 206.90765, z: 68.6956}
-  m_Center: {x: 0, y: -61.143906, z: 8.37039}
