@@ -5897,6 +5897,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3123745134887224158}
+<<<<<<< HEAD
+=======
+  - component: {fileID: 6407765908600112100}
+>>>>>>> 9e79dde14657356c472ffc069c484ceeda85df18
   m_Layer: 0
   m_Name: LegoMan
   m_TagString: Untagged
@@ -6052,6 +6056,28 @@ Transform:
   - {fileID: 6239403140707744068}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+=======
+--- !u!111 &6407765908600112100
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2310932694835304932}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Animation: {fileID: 2938454044479942208, guid: 64011aab92f9a3e2e917fd33f1afdc18, type: 3}
+  m_Animations:
+  - {fileID: 2938454044479942208, guid: 64011aab92f9a3e2e917fd33f1afdc18, type: 3}
+  - {fileID: 7456322705915902132, guid: 79c7f56db4e964d4fb5cdf00aca9a308, type: 3}
+  - {fileID: -2789026795845574352, guid: 48d30e63223ce5b02801799833847a6b, type: 3}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 1
+  m_UpdateMode: 0
+  m_CullingType: 0
+>>>>>>> 9e79dde14657356c472ffc069c484ceeda85df18
 --- !u!1 &2431828919250493827
 GameObject:
   m_ObjectHideFlags: 0
